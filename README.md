@@ -18,6 +18,8 @@ The dashboard was built using the following tools and technologies:
 - **Microsoft Fabric Semantic Model** – Created the data model and built relationships.
 - **DAX (Data Analysis Expressions)** – Used for calculated measures, dynamic visuals, and conditional logic.
 - **Power BI Desktop** – Main data visualization platform used for report creation.
+- **OneLake Security** - Created Column Level Security to ensure the safety of personal data.
+- **App** - Created a customised app for reviewing dashboard.
 - **File Format** – `.pbix` for development and `.png` for dashboard previews.
 ## 4. Data Source
 - **Source:** IBM HR Analytics Attrition Dataset
