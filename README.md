@@ -88,4 +88,5 @@ this chart helped in the analysis of employees had to travel frequently, rarely 
 5. the company needs to give appraisals to employees and give bonus in order to increase monthly income.
 
 ### **9. Dashboard Screenshots**
-(images/
+(HR-Attrition-Analysis/images/Overview.png)
+(HR-Attrition-Analysis/images/Deep_Dive.png)
