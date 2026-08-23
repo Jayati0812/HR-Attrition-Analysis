@@ -10,21 +10,34 @@ The HR Attrition Analysis is an analytical report designed to help HR understand
  
 ## 3. Tech Stack
 The dashboard was built using the following tools and technologies:
- 
-- **Microsoft Fabric Pipeline** – Ingested 1,470 employee records through an online dataset.
-- **Microsoft Dataflow Gen2** – Applied transformations using Power Query on the data.
+
+Ingested 1,470 employee records through an online dataset.
+- **Microsoft Dataflow Gen2** – Ingested 1,470 employee records through an online dataset and applied transformations using Power Query on the data.
 - **Power Query** – Data transformation, cleaning, and feature engineering for preparing the data.
 - **Microsoft Lakehouse** – Primary data source with structured Delta tables in the Tables section.
 - **Microsoft Fabric Semantic Model** – Created the data model and built relationships.
 - **DAX (Data Analysis Expressions)** – Used for calculated measures, dynamic visuals, and conditional logic.
 - **Power BI Desktop** – Main data visualization platform used for report creation.
 - **OneLake Security** - Created Column Level Security to ensure the safety of personal data.
-- **App** - Created a customised app for reviewing dashboard.
+- **App** - Published `App_HR` for end-user access.
 - **File Format** – `.pbix` for development and `.png` for dashboard previews.
 ## 4. Data Source
 - **Source:** IBM HR Analytics Attrition Dataset
 - **Link:** [Kaggle Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 - Data covers ~1,470 employees of the company, including details such as age, monthly income, distance from home, department, and travel frequency, for the years 2023–2024.
+
+## 5. Workflow
+The end-to-end pipeline was built entirely within Microsoft Fabric:
+
+1. **Workspace** – Created `ws_HR` to host all Fabric items for this project.
+2. **Dataflow Gen2** – Created `Df_HR`, loaded raw employee data, and transformed it using Power Query.
+3. **Lakehouse** – Loaded the cleaned data into `lh_HR` as structured Delta tables.
+4. **Semantic Model** – Built `HR semantic`, defining relationships and DAX measures.
+5. **Report** – Created the `HR Attrition Analysis` report in Power BI Desktop.
+6. **Security** – Applied column-level security to restrict sensitive fields by role.
+7. **App** – Published `App_HR` for end-user access.
+
+![Workflow](images/Workflow.png)
  
 ## 5. Feature Highlights
  
@@ -78,12 +91,21 @@ The goal of this dashboard was to create an interactive report that helped HR un
 - Employees who travel frequently for work have a higher attrition rate.
 - Among employees who left, the majority are male.
 - Employees with a Human Resources education background are leaving the most.
+
 ## 7. Business Impact
 - The company should reduce reliance on overtime and promote a healthier work-life balance.
 - The company should distribute travel more evenly among employees instead of burdening a few with frequent travel.
 - The company should focus on young employees and create a better work environment for them.
 - The company should provide more frequent training for entry-level employees.
 - The company should offer appraisals and bonuses to help increase monthly income.
-## 8. Dashboard Screenshots
+
+## 9. Screenshots
+![Workspace](images/Workspace.png)
+![Dataflow_Gen2_data](images/Dataflow_Gen2_data.png)
+![Dataflow_Gen2_to_Lakehouse](images/Dataflow_Gen2_to_Lakehouse.png)
+![Semantic_Model](images/Semantic_Model.png)
 ![Overview](images/Overview.png)
 ![Deep Dive](images/Deep_Dive.png)
+![Column_Level_Security](images/Column_Level_Security.png)
+![App_Overview](images/App_Overview.png)
+![App_Deep_dive](images/App_Deep_dive.png)
