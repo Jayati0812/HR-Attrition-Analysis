@@ -25,4 +25,45 @@ Data of ~1,470 employee of the company, including details of their age, montly i
 
 ### **5. Feature Highlight**
 **Business Problem** 
-I used AI as a client in which the attrition rate has crept up to ~16% annually over the last two years, and it's not evenly spread — some teams are bleeding people while others are stable. Replacing a mid-level employee costs them roughly 6-9 months of their salary once we factor in recruitment, onboarding, and the productivity dip while a new hire ramps up. Last year alone, unplanned attrition cost us an estimated ₹14 crore.
+I used AI as a client in which AI was heading HR Ops for the company in which attrition rate has crept up to ~16% annually over the last two years, and it's not evenly spread — some teams are bleeding people while others are stable. Replacing a mid-level employee costs them roughly 6-9 months of their salary once they factor in recruitment, onboarding, and the productivity dip while a new hire ramps up. Last year alone, unplanned attrition cost them an estimated ₹14 crore.
+
+Key Questions:
+1. which department is bleeding the most?
+2. which job role is being affected most by attrition?
+3. what is the average tenure after which employees are leaving?
+4. what is the salary band of the employees who left?
+5. Does age group or marital status drives attrition?
+6. what education field does employees who left had?
+7. how does overtime affect attrition
+8. does business travel play a role in driving attrition?
+
+**Goal of the Dashboard**
+The goal of this dashboard was to create an interactive report which helped HR understand what is the cause of such a high attrition rate as avg attrition in industry is around 10-15%. This dashboard helped HR Ops to tell the leadership teams or higher management what steps can be taken to reduce and manage attrition by understanding what are the drivers of attrition. 
+**key visuals**
+The Kpis used in this report :
+1. Attrition rate: 16.12%
+   Out of total headcount how many employees left in percent
+2. Employees Left: 237
+3. Total Headcount: 1,470
+4. Average Income: 6,503
+   Avg montly income of employees who left
+5. Average Tenure of Leavers: 5.1
+   Avg years at company
+
+the slicers used :
+1. department
+2. salary band
+3. gender
+
+Attrition Decomposition (Decomposition chart):
+in this chart a hierarchy is created of department, job role and salary band. To get a deep understanding of which
+department was affected the most and how many employees in count left and out of that department which job role was causing
+most attrition and what was the salary range of the employees who left in that role. 
+
+Attrition Based on Age Group (Matrix):
+this matrix helped in getting a analysis of which age group was driving attrition most.
+there we created different age groups of 18-25, 26-35, 36-45 and above 45 and had headcount and employees left count and attrition rate to understand is age a driving factor in attrition.
+
+Attrition Based on OverTime (Bar chart):
+this chart was created against if the employees who worked overtime had a more rate of attrition
+
