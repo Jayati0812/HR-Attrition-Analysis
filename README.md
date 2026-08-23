@@ -11,7 +11,6 @@ The HR Attrition Analysis is an analytical report designed to help HR understand
 ## 3. Tech Stack
 The dashboard was built using the following tools and technologies:
 
-Ingested 1,470 employee records through an online dataset.
 - **Microsoft Dataflow Gen2** – Ingested 1,470 employee records through an online dataset and applied transformations using Power Query on the data.
 - **Power Query** – Data transformation, cleaning, and feature engineering for preparing the data.
 - **Microsoft Lakehouse** – Primary data source with structured Delta tables in the Tables section.
@@ -37,7 +36,7 @@ The end-to-end pipeline was built entirely within Microsoft Fabric:
 6. **Security** – Applied column-level security to restrict sensitive fields by role.
 7. **App** – Published `App_HR` for end-user access.
 
-![Workflow](images/Workflow.png)
+![Workflow](images/workflow.png)
  
 ## 5. Feature Highlights
  
@@ -100,13 +99,24 @@ The goal of this dashboard was to create an interactive report that helped HR un
 - The company should offer appraisals and bonuses to help increase monthly income.
 
 ## 9. Screenshots
+**Workspace (ws_HR)**
 ![Workspace](images/Workspace.png)
+**Data in Dataflow Gen2 (Df_HR)**
 ![Dataflow_Gen2_data](images/Dataflow_Gen2_data.png)
+**Data loading to Lakehouse (lh_HR)**
 ![Dataflow_Gen2_to_Lakehouse](images/Dataflow_Gen2_to_Lakehouse.png)
+**Data in Lakehouse (Df_HR)**
+![Lakehouse](images/Lakehouse.png)
+**Semantic Model (HR Semantic)**
 ![Semantic_Model](images/Semantic_Model.png)
+**Overview of Dashboard**
 ![Overview](images/Overview.png)
+**Deep Dive of Dashboard**
 ![Deep Dive](images/Deep_Dive.png)
+**Implementing Column Level Security**
 ![CLS](images/CLS.png)
+**Column Level Security Applied**
 ![Column_Level_Security](images/Column_Level_Security.png)
+**App (App_HR)**
 ![App_Overview](images/App_Overview.png)
 ![App_Deep_dive](images/App_Deep_dive.png)
