@@ -39,6 +39,7 @@ Key Questions:
 
 **Goal of the Dashboard**
 The goal of this dashboard was to create an interactive report which helped HR understand what is the cause of such a high attrition rate as avg attrition in industry is around 10-15%. This dashboard helped HR Ops to tell the leadership teams or higher management what steps can be taken to reduce and manage attrition by understanding what are the drivers of attrition. 
+
 **key visuals**
 The Kpis used in this report :
 1. Attrition rate: 16.12%
@@ -88,5 +89,5 @@ this chart helped in the analysis of employees had to travel frequently, rarely 
 5. the company needs to give appraisals to employees and give bonus in order to increase monthly income.
 
 ### **9. Dashboard Screenshots**
-(HR-Attrition-Analysis/images/Overview.png)
-(HR-Attrition-Analysis/images/Deep_Dive.png)
+![Overview](images/Overview.png)
+![deep_dive](images/Deep_Dive.png)
