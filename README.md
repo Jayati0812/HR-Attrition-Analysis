@@ -65,5 +65,27 @@ this matrix helped in getting a analysis of which age group was driving attritio
 there we created different age groups of 18-25, 26-35, 36-45 and above 45 and had headcount and employees left count and attrition rate to understand is age a driving factor in attrition.
 
 Attrition Based on OverTime (Bar chart):
-this chart was created against if the employees who worked overtime had a more rate of attrition
+this chart was created against if the employees who worked overtime had a more rate of attrition or not.
 
+Attrition Based on Business Travel (Bar Chart):
+this chart helped in the analysis of employees had to travel frequently, rarely or not travel at all for business purposes doe that contribute to attrition rate.
+
+### **6. Insights**
+1. The Sales department is having the highest attrition rate and the job role that has suffered in the sales department is Sales Representative.
+2. The employees that have low montly income have a higher risk of leaving.
+3. The employees who are in a age group of 18-25 years are most likely to contribute to attrition.
+4. the employees who are single are having the high attrition rate.
+5. the employees who tend to work overtime are leaving the most.
+6. the employees who have to travel frequently due to work are having high attrition rate.
+7. the employees who are leaving out of them mostly they are male employees.
+8. the employees who have human resource as their education field are leaving the most.
+
+### **7. Business Impact**
+1. The company needs to focus on not to ask employees for working overtime and maintain a good work life balance.
+2. the company needs to equally distribute travels among the employees and not to burden some employees with frequent travel
+3. the company should focus on young employees and make them have a good environment at work.
+4. the company needs to focus on giving trainings more frequently to entry level jobs employee.
+5. the company needs to give appraisals to employees and give bonus in order to increase monthly income.
+
+### **9. Dashboard Screenshots**
+(images/
