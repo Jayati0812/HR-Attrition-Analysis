@@ -18,9 +18,11 @@ The dashboard was built using following tools and technologies:
 8. File Format: .pbix for development and .png for dashboards previews.
 
 ### **4. Data Source**
-Source: IBM HR Analytics Attrition Dataset
+Source: IBM HR Analytics Attrition Dataset 
 Link: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
 Data of ~1,470 employee of the company, including details of their age, montly income, distance from home, department, travel etc. of year 2023-2024.
 
 ### **5. Feature Highlight**
+**Business Problem** 
+I used AI as a client in which the attrition rate has crept up to ~16% annually over the last two years, and it's not evenly spread — some teams are bleeding people while others are stable. Replacing a mid-level employee costs them roughly 6-9 months of their salary once we factor in recruitment, onboarding, and the productivity dip while a new hire ramps up. Last year alone, unplanned attrition cost us an estimated ₹14 crore.
