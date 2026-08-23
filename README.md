@@ -106,6 +106,7 @@ The goal of this dashboard was to create an interactive report that helped HR un
 ![Semantic_Model](images/Semantic_Model.png)
 ![Overview](images/Overview.png)
 ![Deep Dive](images/Deep_Dive.png)
+![CLS](images/CLS.png)
 ![Column_Level_Security](images/Column_Level_Security.png)
 ![App_Overview](images/App_Overview.png)
 ![App_Deep_dive](images/App_Deep_dive.png)
