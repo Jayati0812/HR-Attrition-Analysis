@@ -38,7 +38,7 @@ The end-to-end pipeline was built entirely within Microsoft Fabric:
 
 ![Workflow](images/workflow.png)
  
-## 5. Feature Highlights
+## 6. Feature Highlights
  
 ### Business Problem
 I used AI as a client, roleplaying as the Head of HR Operations for a company where the attrition rate had crept up to ~16% annually over the last two years — and it wasn't evenly spread, with some teams bleeding people while others stayed stable. Replacing a mid-level employee costs the company roughly 6–9 months of salary once recruitment, onboarding, and the productivity dip during a new hire's ramp-up are factored in. Last year alone, unplanned attrition cost an estimated ₹14 crore.
@@ -81,7 +81,7 @@ The goal of this dashboard was to create an interactive report that helped HR un
 **Attrition Based on Business Travel (Bar Chart):**
 - This chart helped analyze whether employees who traveled frequently, rarely, or not at all for business purposes had any correlation with attrition rate.
  
-## 6. Insights
+## 7. Insights
 - The Sales department has the highest attrition rate, with Sales Representative being the most affected job role.
 - Employees with lower monthly income have a higher risk of leaving.
 - Employees in the 18–25 age group are most likely to contribute to attrition.
@@ -91,7 +91,7 @@ The goal of this dashboard was to create an interactive report that helped HR un
 - Among employees who left, the majority are male.
 - Employees with a Human Resources education background are leaving the most.
 
-## 7. Business Impact
+## 8. Business Impact
 - The company should reduce reliance on overtime and promote a healthier work-life balance.
 - The company should distribute travel more evenly among employees instead of burdening a few with frequent travel.
 - The company should focus on young employees and create a better work environment for them.
